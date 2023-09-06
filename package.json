@@ -3,6 +3,10 @@
   "version": "0.0.10",
   "description": "",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yeasiin/zod-simple-error.git"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"

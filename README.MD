@@ -1,9 +1,9 @@
 This Package is for Better Error Message of Zod library.
 
-Install using `NPM`
+Add to your project
 
-`npm i zodsimpleerror`
+```
+npm i zodsimpleerror        #npm
+yarn i zodsimpleerror       #yarn
 
-Install using `Yarn`
-
-`yarn add zodsimpleerror`
+```

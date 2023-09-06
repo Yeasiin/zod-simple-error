@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js publish --access public
 
 PATH: 
-  C:\Users\Yeasin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Yeasin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\src\watchman-v2023.01.30.00-windows\bin;C:\Users\Yeasin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Yeasin\AppData\Local\pnpm;C:\Users\Yeasin\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Yeasin\AppData\Local\Programs\Python\Python311;C:\Users\Yeasin\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeasin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeasin\go\bin;C:\src\flutter\bin;C:\Users\Yeasin\.fly\bin;C:\Users\Yeasin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\OpenSSL-Win64\bin;C:\Users\Yeasin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk-20\bin;C:\MinGW\bin;C:\Program Files\mongosh-1.9.0-win32-x64\bin;C:\install\caddy;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+  C:\Users\Yeasin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Yeasin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\src\watchman-v2023.01.30.00-windows\bin;C:\Users\Yeasin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Yeasin\AppData\Local\pnpm;C:\Users\Yeasin\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Yeasin\AppData\Local\Programs\Python\Python311;C:\Users\Yeasin\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeasin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeasin\go\bin;C:\src\flutter\bin;C:\Users\Yeasin\.fly\bin;C:\Users\Yeasin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Java\jdk-20\bin;C:\MinGW\bin;C:\Program Files\mongosh-1.9.0-win32-x64\bin;C:\install\caddy;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
   1.22.19
@@ -14,8 +14,8 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.npmjs.org/-/user/org.couchdb.user:yeasiin: failed to authenticate: Could not authenticate yeasiin: bad password
-      at params.callback [as _callback] (C:\Users\Yeasin\AppData\Roaming\nvm\v18.15.0\node_modules\yarn\lib\cli.js:66145:18)
+  Error: https://registry.npmjs.org/-/user/org.couchdb.user:yeasiin: Auth rate limited
+      at params.callback [as _callback] (C:\Users\Yeasin\AppData\Roaming\nvm\v18.15.0\node_modules\yarn\lib\cli.js:66154:18)
       at self.callback (C:\Users\Yeasin\AppData\Roaming\nvm\v18.15.0\node_modules\yarn\lib\cli.js:140890:22)
       at Request.emit (node:events:513:28)
       at Request.<anonymous> (C:\Users\Yeasin\AppData\Roaming\nvm\v18.15.0\node_modules\yarn\lib\cli.js:141862:10)
@@ -29,7 +29,7 @@ Trace:
 npm manifest: 
   {
     "name": "zodsimpleerror",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "",
     "main": "lib/index.js",
     "scripts": {
